@@ -16,7 +16,7 @@ export default class Header extends Component {
   render() {
     return (
       <header className="header">
-        <h1 className="animated bounceInRight">Just Do It.</h1>
+        <h1 className="animated wobble">Just Do It.</h1>
         <TodoTextInput newTodo
                        onSave={this.handleSave}
                        placeholder="Add new goal" />

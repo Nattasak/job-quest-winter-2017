@@ -1,10 +1,7 @@
 html {
 	height: 100%;
-	background: rgb(242,246,248);
-	background: -moz-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 47%, rgba(224,239,249,1) 100%);
-	background: -webkit-linear-gradient(top, rgba(242,246,248,1) 0%,rgba(216,225,231,1) 47%,rgba(224,239,249,1) 100%);
-	background: linear-gradient(to bottom, rgba(242,246,248,1) 0%,rgba(216,225,231,1) 47%,rgba(224,239,249,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=0 );
+	max-height: 1000px;
+	background: #000 url(./everlest.jpg) no-repeat center top;
 }
 
 body {
@@ -20,10 +17,10 @@ body {
 }
 
 .todoapp h1 {
-	color: #1e89de;
+	color: #000;
 	top: -180px;
 	font-family: 'Anton', sans-serif;
-	letter-spacing: 2px;
+	letter-spacing: 4px;
 	text-shadow: 4px 3px 0 #e7edf0, 9px 8px 0 rgba(0,0,0,0.15);
 }
 
@@ -65,6 +62,7 @@ body {
 	right: 23px;
 	font-weight: bold;
 	cursor: pointer;
+	color: #af5b5e;
 }
 
 .todo-list li .destroy:hover {
