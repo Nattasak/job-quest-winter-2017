@@ -30,6 +30,7 @@ body {
 
 .todo-list li {
 	font-size: 20px;
+	border: 0;
 }
 
 .todo-list li label {
