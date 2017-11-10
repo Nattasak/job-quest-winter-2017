@@ -45,7 +45,7 @@ export default class TodoItem extends Component {
                  type="checkbox"
                  checked={todo.completed}
                  onChange={() => completeTodo(todo.id)} />
-          <label onDoubleClick={this.handleDoubleClick}>
+          <label onDoubleClick={this.handleDoubleClick} className="animated fadeIn">
             {todo.text}
           </label>
           <button className="destroy"

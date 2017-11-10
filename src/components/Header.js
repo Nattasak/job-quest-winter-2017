@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import TodoTextInput from './TodoTextInput'
+import 'animate.css/animate.min.css'
 
 export default class Header extends Component {
   static propTypes = {
@@ -16,7 +17,7 @@ export default class Header extends Component {
   render() {
     return (
       <header className="header">
-        <h1>To-do</h1>
+        <h1 className="TodoHead animated tada">To-do</h1>
         <TodoTextInput newTodo
                        onSave={this.handleSave}
                        placeholder="What needs to be done?" />
