@@ -40,12 +40,12 @@ export default class TodoItem extends Component {
       )
     } else {
       element = (
-        <div className="view">
+        <div className="view animated fadeIn">
           <input className="toggle"
                  type="checkbox"
                  checked={todo.completed}
                  onChange={() => completeTodo(todo.id)} />
-          <label onDoubleClick={this.handleDoubleClick} className="animated fadeIn">
+          <label onDoubleClick={this.handleDoubleClick}>
             {todo.text}
           </label>
           <button className="destroy"

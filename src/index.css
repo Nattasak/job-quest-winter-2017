@@ -2,3 +2,8 @@
 	color: #000;
 	top: -145px;
 }
+
+.FooterAnimate {
+	-webkit-animation-delay: 0.4s;
+	-moz-animation-delay: 0.4s;
+}

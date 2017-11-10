@@ -23,7 +23,7 @@ export default class Footer extends Component {
     const itemWord = activeCount === 1 ? 'item' : 'items'
 
     return (
-      <span className="todo-count">
+      <span className="todo-count FooterAnimate animated fadeInUp">
         <strong>{activeCount || 'No'}</strong> {itemWord} left
       </span>
     )
@@ -58,7 +58,7 @@ export default class Footer extends Component {
     return (
       <footer className="footer">
         {this.renderTodoCount()}
-        <ul className="filters">
+        <ul className="filters FooterAnimate animated fadeInUp">
           {[ SHOW_ALL, SHOW_ACTIVE, SHOW_COMPLETED ].map(filter =>
             <li key={filter}>
               {this.renderFilterLink(filter)}
