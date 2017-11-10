@@ -2,7 +2,7 @@
   "name": "todo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nattasak.github.io/todo-winter",
+  "homepage": "https://nattasak.github.io/job-quest-winter-2017",
   "dependencies": {
     "animate.css": "^3.5.2",
     "classnames": "^2.2.5",
