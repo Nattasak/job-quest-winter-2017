@@ -1,6 +1,83 @@
+html {
+	height: 100%;
+	background: rgb(242,246,248);
+	background: -moz-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 47%, rgba(224,239,249,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(242,246,248,1) 0%,rgba(216,225,231,1) 47%,rgba(224,239,249,1) 100%);
+	background: linear-gradient(to bottom, rgba(242,246,248,1) 0%,rgba(216,225,231,1) 47%,rgba(224,239,249,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=0 );
+}
+
+body {
+	background: none;
+	color: #232323;
+	font: 14px/1.4em 'Open Sans', sans-serif;
+}
+
+.todoapp {
+	background: #fff;
+	margin: 202px 0 40px 0;
+	border-radius: 6px;
+}
+
 .todoapp h1 {
-	color: #000;
-	top: -145px;
+	color: #1e89de;
+	top: -180px;
+	font-family: 'Anton', sans-serif;
+	letter-spacing: 2px;
+	text-shadow: 4px 3px 0 #e7edf0, 9px 8px 0 rgba(0,0,0,0.15);
+}
+
+.new-todo {
+	padding: 16px 16px 16px 78px;
+}
+
+.todo-list li {
+	font-size: 20px;
+}
+
+.todo-list li label {
+	line-height: 2.2;
+	padding: 15px 15px 15px 78px;
+}
+
+.toggle-all + label {
+	left: 0;
+}
+
+.toggle-all + label:before {
+	cursor: pointer;
+}
+
+.todo-list li .toggle {
+	top: 16px;
+	left: 20px;
+	cursor: pointer;
+}
+
+.todo-list li .toggle + label {
+	background-position: 16px center;
+}
+
+.todo-list li .destroy {
+	font-size: 43px;
+	top: 2px;
+	bottom: 17px;
+	right: 23px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.todo-list li .destroy:hover {
+	color: #af5b5e;
+}
+
+.footer {
+	padding: 25px 15px 15px 15px;
+	border-top: 1px solid #ffffff;
+}
+
+.footer:before {
+	box-shadow: none;
 }
 
 .FooterAnimate {
